@@ -1,4 +1,4 @@
-status,target date,environment,data center,capability milestone
+status|target date|environment|data center|capability milestone
 ||DEV/QA,GCP-USCENTRAL1|Automated deployment of Splunk Enterprise
 ||DEV/QA,GCP-USCENTRAL1|Automated deployment of Splunk DSP
 ||DEV/QA,GCP-USCENTRAL1|Automated deployment of Splunk processing pipeline
