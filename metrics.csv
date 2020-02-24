@@ -1,4 +1,70 @@
 status,target date,environment,data center,capability milestone
 ,,DEV/QA,LVS01 (all security zones),ingest metrics through REST API
 ,,DEV/QA,LVS01 (all security zones),request/search metrics through REST API
-,,DEV/QA,LVS01 (all security zones),request/search metrics through
+,,DEV/QA,LVS01 (all security zones),request/search metrics through platform UI
+,,DEV/QA,LVS01 (all security zones),ingest host level metrics for application (a.k.a. Pool, Service) + dimensions (colo, etc.)
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service ) metrics from logs ( ppappmon )
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service ) metrics from logs ( root transactions, CAL Status, transactions per host, heartbeat per host )
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service) defined metrics + dimensions from logs. (e.g. m_rule=DEFAULT_POLICY in the CAL data section )
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service ) API metrics "Inbound calls" ( Errors, Excpetions, Warnings, Availability %, Average Duration etc., Sherlock "inbound calls" tab:  )   (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service ) API metrics "Outbound calls"  (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service ) Event metrics
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service ) DB metrics
+,,DEV/QA,LVS01 (all security zones),ingest Application (a.k.a. Pool, Service) Build Data metrics
+,,DEV/QA,LVS01 (all security zones),ingest Network Device metrics
+,,DEV/QA,LVS01 (all security zones),request/search Network device metrics through REST API
+,,DEV/QA,LVS01 (all security zones),request/search Network device metrics through platform UI
+,,DEV/QA,LVS03 (all security zones),ingest metrics through REST API
+,,DEV/QA,LVS03 (all security zones),request/search metrics through REST API
+,,DEV/QA,LVS03 (all security zones),request/search metrics through platform UI
+,,DEV/QA,LVS03 (all security zones),ingest host level metrics for application (a.k.a. Pool, Service) + dimensions (colo, etc.)
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service ) metrics from logs ( ppappmon )
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service ) metrics from logs ( root transactions, CAL Status, transactions per host, heartbeat per host )
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service) defined metrics + dimensions from logs. (e.g. m_rule=DEFAULT_POLICY in the CAL data section )
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service ) API metrics "Inbound calls" ( Errors, Excpetions, Warnings, Availability %, Average Duration etc., Sherlock "inbound calls" tab:  )   (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service ) API metrics "Outbound calls"  (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service ) Event metrics
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service ) DB metrics
+,,DEV/QA,LVS03 (all security zones),ingest Application (a.k.a. Pool, Service) Build Data metrics
+,,DEV/QA,LVS03 (all security zones),ingest Network Device metrics
+,,DEV/QA,LVS03 (all security zones),request/search Network device metrics through REST API
+,,DEV/QA,LVS03 (all security zones),request/search Network device metrics through platform UI
+,,DEV/QA,LVS03 (all security zones),ingest metrics through REST API
+,,DEV/QA,LVS03 (all security zones),request/search metrics through REST API
+,,DEV/QA,LVS03 (all security zones),request/search metrics through platform UI
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE host level metrics for application (a.k.a. Pool, Service) + dimensions (colo, etc.)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service ) metrics from logs ( ppappmon )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service ) metrics from logs ( root transactions, CAL Status, transactions per host, heartbeat per host )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service) defined metrics + dimensions from logs. (e.g. m_rule=DEFAULT_POLICY in the CAL data section )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service ) API metrics "Inbound calls" ( Errors, Excpetions, Warnings, Availability %, Average Duration etc., Sherlock "inbound calls" tab:  )   (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service ) API metrics "Outbound calls"  (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service ) Event metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service ) DB metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest USER STAGE Application (a.k.a. Pool, Service) Build Data metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE host level metrics for application (a.k.a. Pool, Service) + dimensions (colo, etc.)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service ) metrics from logs ( ppappmon )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service ) metrics from logs ( root transactions, CAL Status, transactions per host, heartbeat per host )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service) defined metrics + dimensions from logs. (e.g. m_rule=DEFAULT_POLICY in the CAL data section )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service ) API metrics "Inbound calls" ( Errors, Excpetions, Warnings, Availability %, Average Duration etc., Sherlock "inbound calls" tab:  )   (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service ) API metrics "Outbound calls"  (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service ) Event metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service ) DB metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest MASTER STAGE Application (a.k.a. Pool, Service) Build Data metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE host level metrics for application (a.k.a. Pool, Service) + dimensions (colo, etc.)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service ) metrics from logs ( ppappmon )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service ) metrics from logs ( root transactions, CAL Status, transactions per host, heartbeat per host )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service) defined metrics + dimensions from logs. (e.g. m_rule=DEFAULT_POLICY in the CAL data section )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service ) API metrics "Inbound calls" ( Errors, Excpetions, Warnings, Availability %, Average Duration etc., Sherlock "inbound calls" tab:  )   (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service ) API metrics "Outbound calls"  (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service ) Event metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service ) DB metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest RELEASE STAGE Application (a.k.a. Pool, Service) Build Data metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE host level metrics for application (a.k.a. Pool, Service) + dimensions (colo, etc.)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service ) metrics from logs ( ppappmon )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service ) metrics from logs ( root transactions, CAL Status, transactions per host, heartbeat per host )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service) defined metrics + dimensions from logs. (e.g. m_rule=DEFAULT_POLICY in the CAL data section )
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service ) API metrics "Inbound calls" ( Errors, Excpetions, Warnings, Availability %, Average Duration etc., Sherlock "inbound calls" tab:  )   (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service ) API metrics "Outbound calls"  (HTTP, HTTPS, TCP, RCP)
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service ) Event metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service ) DB metrics
+,,DEV/QA,GCP-USCENTRAL1 (all security zones),ingest PARTNER STAGE Application (a.k.a. Pool, Service) Build Data metrics
